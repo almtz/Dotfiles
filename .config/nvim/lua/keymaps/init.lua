@@ -16,9 +16,6 @@ nmap({
 	{ "<C-j>", "<C-w>j", opts(noremap) },
 	{ "<C-k>", "<C-w>k", opts(noremap) },
 	{ "<C-l>", "<C-w>l", opts(noremap) },
-	{ "<leader>ws", "<C-w>s", opts(noremap, silent) },
-	{ "<leader>wv", "<C-w>v", opts(noremap, silent) },
-	{ "<leader>wq", "<C-w>q", opts(noremap, silent) },
 
 	-- Git
 	{ "<leader>gs", cmd("G"), opts(noremap, silent) },

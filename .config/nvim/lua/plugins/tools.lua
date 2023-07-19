@@ -1,12 +1,18 @@
 return {
     {
+        "tpope/vim-fugitive"
+    },
+
+    {
         "windwp/nvim-autopairs",
         event = "InsertEnter",
         opts = {}
     },
 
     {
-        "tpope/vim-fugitive"
+        "max397574/better-escape.nvim",
+        event = "InsertEnter",
+        opts = {}
     },
 
     {
